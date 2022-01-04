@@ -1,38 +1,100 @@
+:root {
+  --font-famaly: Helvetica;
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.5;
+  font-size: 0.875rem;
+  font-family: var(--font-famaly);
+  background-color: #ddd;
+}
+
 .App {
+  margin: 2rem auto;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  max-width: 450px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 1rem 1rem;
+  width: 95%;
+  box-shadow: var(--dark-shadow);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (max-width: 400px) {
+  .container .items {
+    width: 90%;
+  }
+  .container {
+    width: 90%;
+  }
+  .btn {
+    width: 90% !important;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container .items {
   display: flex;
-  flex-direction: column;
+  background-color: var(--shadow-color);
+  justify-content: space-between;
   align-items: center;
+  margin: 0.2rem;
+  border-radius: 2rem;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem;
+}
+h1 {
+  margin: 1rem;
+}
+.item p {
+  margin-left: 0.5rem;
+  display: flex;
+  font-size: 120%;
+  font-weight: 500;
+  flex-direction: column;
+}
+
+.item p span {
+  font-size: 80%;
+  opacity: 0.8;
+  margin-left: 1rem;
+  text-align: start;
+}
+.circular-img {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.btn {
+  width: 90%;
+  padding: 0.5rem 0;
+  border-radius: 10px;
+  width: 50%;
+  margin: 1rem auto;
+  color: #fff;
+  background-color: purple;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  outline: none;
+  align-items: center;
+  font-size: 130%;
+  border: none;
+  cursor: pointer;
 }
