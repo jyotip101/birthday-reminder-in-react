@@ -1,15 +1,45 @@
-# Getting Started with Create React App
+<h1 align="center">Birthday Reminder</h1>
+   
+  
+<!-- TABLE OF CONTENTS -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
 
-## Available Scripts
+- [Demo](#demo)
+- [Overview](#overview)
+  - [Built With](#built-with)
+- [How To Use](#how-to-use)
 
-In the project directory, you can run:
+<!-- DEMO -->
 
-### `npm start`
+## Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[Birthday Reminder]()
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- OVERVIEW -->
+
+## Overview
+
+![Birthdays-Reminder-App](https://user-images.githubusercontent.com/66724598/148105268-08e750f1-444e-4a54-b161-559d0c116065.png)![Birthdays-Reminder-App-mobile](https://user-images.githubusercontent.com/66724598/148105278-1a31fe69-de29-49ab-91ea-a0416b35737e.png)
+
+### Built With
+
+- [React](https://reactjs.org/)
+- [Google icon](https://fonts.google.com/icons)
+
+## How To Use
+
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/your-user-name/your-project-name
+
+# Install dependencies
+$ npm install
+
+# Run the app
+$ npm start
+
+# Now go `http://localhost:3000` to view your app in the browser
+```
