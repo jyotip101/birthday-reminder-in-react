@@ -14,7 +14,7 @@
 
 ## Demo
 
-[Birthday Reminder](https://jyotip101.github.io/birthday-reminder-in-react/)
+[Birthday Reminder](https://thejyotipatel.github.io/birthday-reminder-in-react/)
 
 <!-- OVERVIEW -->
 
